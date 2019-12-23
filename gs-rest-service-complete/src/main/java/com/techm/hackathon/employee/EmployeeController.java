@@ -16,4 +16,9 @@ public class EmployeeController {
 	public Employee getEmployee(@PathVariable String id) {
 		return employeeService.getEmployee(id);
 	}
+	
+	@RequestMapping("/")
+    public String index() {
+        return "Spring Boot Example";
+    }
 }
