@@ -13,10 +13,12 @@ variables:
   #azureSubscription: 'd0cc599f-2d75-41b6-b00b-a96687778a31'
   
   # Web app name
-  webAppName: 'DemoWebAppPrashant'
+ # webAppName: 'DemoWebAppPrashant'
+  webAppName: 'CDCIWebApp'
 
   # Environment name
-  environmentName: 'DemoWebAppPrashant'
+  #environmentName: 'DemoWebAppPrashant'
+  environmentName: 'CDCIWebApp'
   
   # Agent VM image name
  # vmImageName: 'ubuntu-latest'
