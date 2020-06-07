@@ -14,15 +14,15 @@ variables:
   
   # Web app name
  # webAppName: 'DemoWebAppPrashant'
-  webAppName: 'CDCIWebApp'
+  webAppName: 'webapptemp1'
 
   # Environment name
   #environmentName: 'DemoWebAppPrashant'
-  environmentName: 'CDCIWebApp'
+  environmentName: 'webapptemp1'
   
   # Agent VM image name
- # vmImageName: 'ubuntu-latest'
-  vmImageName: 'vs2017-win2016'
+  vmImageName: 'ubuntu-latest'
+ # vmImageName: 'vs2017-win2016'
 
 stages:
 - stage: Build
